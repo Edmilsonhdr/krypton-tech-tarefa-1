@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="form">
+      <form
+        action="https://apiintranet.kryptonbpo.com.br/test-dev/exercise-1"
+        method="post"
+      >
+        <div class="inpt-text">
+          <div>
+            <h1>Cadastro-Carro</h1>
+            <p>Marca</p>
+            <input
+              type="text"
+              name="name"
+              id="marca"
+              placeholder="Digite a marca do carro"
+            />
+            <p>Modelo</p>
+            <input
+              type="text"
+              name="name"
+              id="modelo"
+              placeholder="Digite o modelo do carro"
+            />
+            <p>Cor</p>
+            <input
+              type="text"
+              name="name"
+              id="cor"
+              placeholder="Digite a cor do carro"
+            />
+          </div>
+          <div>
+            <h1>Cadastro-Motor</h1>
+            <p>Posicionamento dos Cilindros</p>
+            <input
+              type="text"
+              name="name"
+              id="pos-cilindro"
+              placeholder="Digite a cor do carro"
+            />
+            <p>Cilindros</p>
+            <input
+              type="text"
+              name="name"
+              id="cilindro"
+              placeholder="Digite a cor do carro"
+            />
+            <p>Litragem</p>
+            <input
+              type="text"
+              name="name"
+              id="litragem"
+              placeholder="Digite a cor do carro"
+            />
+            <p>Observação</p>
+            <input
+              type="text"
+              name="name"
+              id="observacao"
+              placeholder="Digite a cor do carro"
+            />
+          </div>
+        </div>
+        <input type="submit" id="send" value="Enviar" />
+      </form>
+    </div>
+
+    <div class="form-group">
+      <div class="car">
+        <br />
+        <table border="1">
+          <tbody class="pTabela">
+            <tr>
+              <th>ID</th>
+              <th>MARCA</th>
+              <th>MODELO</th>
+              <th>COR</th>
+              <th>ID MOTOR</th>
+            </tr>
+            <tr>
+              <td class="carro_id"></td>
+              <td class="carro_marca"></td>
+              <td class="carro_modelo"></td>
+              <td class="carro_cor"></td>
+              <td class="carro_motor_id"></td>
+            </tr>
+
+            <tr>
+              <td class="carro_id"></td>
+              <td class="carro_marca"></td>
+              <td class="carro_modelo"></td>
+              <td class="carro_cor"></td>
+              <td class="carro_motor_id"></td>
+            </tr>
+
+            <tr>
+              <td><p class="carro_id"></p></td>
+              <td><p class="carro_marca"></p></td>
+              <td><p class="carro_modelo"></p></td>
+              <td><p class="carro_cor"></p></td>
+              <td><p class="carro_motor_id"></p></td>
+            </tr>
+
+            <tr>
+              <td><p class="carro_id"></p></td>
+              <td><p class="carro_marca"></p></td>
+              <td><p class="carro_modelo"></p></td>
+              <td><p class="carro_cor"></p></td>
+              <td><p class="carro_motor_id"></p></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="motor">
+        <table border="1">
+          <tr>
+            <th>ID MOTOR</th>
+            <th>POSICIONAMENTO DO CILINDROS</th>
+            <th>CILINDROS</th>
+            <th>LITRAGEM</th>
+            <th>OBSERVAÇÃO</th>
+          </tr>
+          <tr>
+            <td><p class="motor_id"></p></td>
+            <td><p class="motor_p_cilindros"></p></td>
+            <td><p class="motor_cilindros"></p></td>
+            <td><p class="motor_litragem"></p></td>
+            <td><p class="motor_observacao"></p></td>
+          </tr>
+
+          <tr>
+            <td><p class="motor_id"></p></td>
+            <td><p class="motor_p_cilindros"></p></td>
+            <td><p class="motor_cilindros"></p></td>
+            <td><p class="motor_litragem"></p></td>
+            <td><p class="motor_observacao"></p></td>
+          </tr>
+
+          <tr>
+            <td><p class="motor_id"></p></td>
+            <td><p class="motor_p_cilindros"></p></td>
+            <td><p class="motor_cilindros"></p></td>
+            <td><p class="motor_litragem"></p></td>
+            <td><p class="motor_observacao"></p></td>
+          </tr>
+
+          <tr>
+            <td><p class="motor_id"></p></td>
+            <td><p class="motor_p_cilindros"></p></td>
+            <td><p class="motor_cilindros"></p></td>
+            <td><p class="motor_litragem"></p></td>
+            <td><p class="motor_observacao"></p></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
